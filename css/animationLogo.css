@@ -1,0 +1,20 @@
+@keyframes linkedIn-logo {
+    0% {border-radius: 0%;}
+    25% {border-radius: 100%;
+    transform: rotate(90deg);}
+    50% {background-color: gold;
+        transform: rotate(180deg);}
+    75% {transform:translateY(2rem);}
+    100%{background-color: white;}
+}
+
+img:hover{
+    width: 5rem;
+    background-color: red;
+    animation-name: linkedIn-logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
